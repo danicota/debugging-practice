@@ -56,8 +56,8 @@ window.addEventListener('DOMContentLoaded', function() {
   // - #red
   
   
-  var deckElement = document.querySelector('.Cards');
-  var deckColor = window.location.hashh;
+  var deckElement = document.querySelector('.cards');
+  var deckColor = window.location.hash.substring(1);
 
 
   if (deckElement && deckColor) {
